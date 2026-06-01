@@ -1,6 +1,6 @@
 package Arrays.Array1D;
 
-public class ArrayMul {
+public class ArrayMultiplication {
 
     static void main() {
         int arr[]={1,2,3,4,5};

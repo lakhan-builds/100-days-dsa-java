@@ -1,6 +1,6 @@
 package Arrays.Array2D;
 
-public class Mul {
+public class Array2DSum {
     static void main() {
         int[][] crr={
                 {1,2},
@@ -9,17 +9,12 @@ public class Mul {
                 {7}
         };
         int sum=0;
-        int mul=1;
 
         for(int i=0;i<crr.length;i++){
             for(int j=0;j<crr[i].length;j++){
-                mul*=crr[i][j];
                 sum+=crr[i][j];
             }
         }
         System.out.println(sum);
-        System.out.println(mul);
     }
-    }
-
-
+}
